@@ -1,0 +1,187 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 1:44:47 Dec 29, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:34:10 Sep 23, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+@charset "utf-8";
+
+ * {padding: 0; margin: 0}
+
+ body {background: url(/arquivos/imgs/bg.jpg) center; font-family: Arial, Helvetica, sans-serif; color: #2e3353; font-size:11px}
+ .clear {clear:both}
+ .left {float:left !important}
+ .right {float:right !important}
+
+ h1 {font-family:Times New Roman, Times, serif; color: #a63306; font-size:22px}
+ h2 {font-family:Times New Roman; font-size:16px}
+ h3 {font-family:Times New Roman; font-size:16px; color: #a63306}
+ h4 {font-family:Times New Roman; font-size:16px; color: #a63306; padding: 30px 0 15px}
+ a:link, a:visited {text-decoration:none; border:none; color: #2e3353}
+ a:hover {text-decoration: underline}
+ .sub {text-decoration: underline}
+
+ .topo {width: 100%; height: 87px; background: url(/arquivos/imgs/bg-topo-right.gif) no-repeat right #f7f8f0; border-bottom: 6px #dadbc9 solid}
+ div.meio-topo {width: 974px; margin: auto}
+ div.meio-topo img, div.meio-topo input {float:left}
+ div.meio-topo .botao-busca {background:url(/arquivos/imgs/botao_busca.gif); border:none; height: 23px; width:65px; margin: 32px 0 0; cursor: pointer}
+ div.meio-topo .busca-topo {margin: 32px 0 0 55px; height:18px; width: 211px; border: 1px #d9d8dd solid; padding: 3px 0 0 2px; color: #2e3353}
+ div.meio-topo img.img0 {margin-top: 27px}
+ div.meio-topo img.botao-contato, img.botao-bgcontato {margin-top: 32px; border: none; width:100px; height:23px}
+
+
+/* --------- MENU ---------- */
+.menu {width: 100%; background: url(/arquivos/imgs/bg-menu.gif); height: 28px; border-bottom: 6px #aeb0ad solid; text-transform:uppercase}
+.center-menu {margin:auto!important; width:880px; text-align:center}
+#nav a.first {border-left:none!important}
+#nav a.last {border-right:none!important}
+#nav, #nav ul {/* all lists */ padding: 0; margin: 0; list-style: none; line-height: 1; font-family: Times New Roman}
+#nav a.um {font-family:Lucida Fax;padding: 8px 30px 9px 30px; display: block; font-size: 11px; text-align: center; font-weight: bold; color:#FFF; text-decoration:none; border-left: 1px #2d3052 solid; border-right: 1px #575a78 solid}
+#nav a.um:hover {background:url(/arquivos/imgs/bg-menu-hover.gif); color: #2f3258}
+#nav li ul a { font-family:Lucida Fax;display: block; width: 150px; padding: 8px 0 8px 15px; font-size: 11px; font-weight: bold; color:#FFF; text-decoration:none}
+#nav li ul a:hover {background:url(/arquivos/imgs/bg-menu-hover.gif) repeat-x #9799ac; color: #2f3258}
+#nav li.um {/* primeiro nivel */ background:url(/arquivos/imgs/bg-menu.gif); float: left}
+#nav li {/* toda lista */ background:url(/arquivos/imgs/bg-submenu.gif) no-repeat #2f3258; float: left; border-top: none}
+#nav li ul {/* segundo-nivel lists */ position: absolute; width: 131px; background-color: #F6F6F6; text-align: left; left: -999em}
+#nav li ul ul {/* +terceiro nivel lists */ margin: -28px 0 0 165px}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {left: -999em}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul {left: auto}
+/* -------// FIM - MENU -------- */
+
+.conteudo {width: 974px; _width: 978px; margin: auto}
+
+ .barra-box {float:left}
+ .barra-voo {background:  url(/arquivos/imgs/barra-box.gif); width: 24%; _width: 140%; height:23px; position:absolute; right: 0px; z-index: -1}
+ .barra-voo-e {background:  url(/arquivos/imgs/barra-box.gif); width: 24%; height:28px; position:absolute; left: 0px; z-index: -1}
+ .barra-jornal {background:  url(/arquivos/imgs/barra-box.gif); width: 24%; _width: 140%; height:23px; position:absolute; right: 0px; z-index: -1; margin-top:18px}
+ .barra-dicas {background:  url(/arquivos/imgs/barra-box.gif); width: 24%; _width: 140%; height:42px; position:absolute; right: 0px; z-index: -1; margin-top: 9px}
+  
+ div.col-d {_margin: 0 auto 36px auto; margin: 0 auto 39px auto; width:972px; height:241px; text-align: center}
+ div.col-d img, .border_flash {border: 6px solid #AEB0AD; border-top:none}
+ div.col-a {width: 737px; /* height: 470px; */ float:left}
+ div.col-b {width: 237px; _width: 230px; float:right; text-align: right}
+ div.col-f {width: 737px; height: 404px}
+ div.col-e {width: 737px; float:left}
+  
+ .box-roteiros {float:left; margin: 33px 10px 4px 7px; _margin:0px; _padding: 33px 10px 0px 7px; width: 349px; height: 134px}
+ .mais-info {font-variant:small-caps; text-decoration:none; color: #2e3353; font-size: 13px; font-weight:bold; font-family:Tahoma, Geneva, sans-serif}
+ .mais-info img {background:none!important; border:none; padding: 3px 0 0 7px}
+ .text-roteiros {margin-left: 5px; float:left; width:159px; height: 134px} 
+ .img-sombra {float:left; padding:11px; width: 163px; height: 116px; border: 0px}
+ .img-sombra-dois {float:left; padding:12px; width: 201px; height: 150px; border: 0px}
+
+ .row-all {width:680px; float:left}
+ .row-all .share {margin-bottom: 20px}
+ .subrow-all {width: 100%}
+ .row-a-um {width:670px; float:left; padding: 10px 0 50px 0}
+ .row-a-dois {float:left; width: 368px; height: 374px; background:url(/arquivos/imgs/bg-m.gif) no-repeat top left}
+ .row-a-dois img {background:none !important}
+ .row-a-tres {float: left; width: 369px;height:374px}
+ .box-roteiros img, .box-allemappa img {background:url(/arquivos/imgs/img-shadow.gif) no-repeat}
+ .subrow-all img {background:url(/arquivos/imgs/img-shadow2.gif) no-repeat}
+ .box-allemappa {float:left; width: 100%}
+ .box-emappa {height:134px;padding:33px 10px 4px 7px;width:350px; float:left}
+ 
+ .row-all ul {list-style-image:url(/arquivos/imgs/list-ul.gif); margin: 5px 0 10px 20px}
+ .row-all ul li {padding-top: 5px}
+
+ .red-text {display:block; color:#a63306; font-size:12px }
+ .red-text a{color:#a63306}
+ .red-titulo {display:block; color: #a63306; width: 40px; _width:30px; float:left; font-size: 12px; padding-top: 5px; margin: 0 5px 0; font-weight: bold}
+ .red-titulo2 {display:block; color: #a63306; width: 100px; float:left; font-size: 12px; padding-top: 5px; margin: 0 5px 0; font-weight: bold}
+ p.autor {font-weight: bold; padding: 2px 0 7px}
+ h1.barra-titulo, span.barra-titulo3 {height:27px; background: #d7d8d0; color:#a63306; padding: 5px 15px 0px 192px; text-transform:uppercase; font-variant:small-caps; font-size:20px; font-family:Times New Roman, Times, serif; float:left; margin-right: 5px}
+ span.barra-titulo2 {height:20px; margin-top:91px; background: #d7d8d0; color:#a63306; padding: 5px 8px 0px 416px; *padding: 5px 8px 0px 435px; text-transform:uppercase; font-variant:small-caps; font-size:16px; font-family:Times New Roman, Times, serif; float:left}
+ span.barra-titulo2 a {color:#a63306}
+ span.barra-titulo3 {padding: 0 20px 5px 35px} 
+ 
+ .row-b-voo, .row-b-jornal, .row-b-dicas {padding: 60px 10px 20px 70px; _padding: 10px 0px 20px 70px; text-align: left}
+ .row-b-voo {*padding-bottom: 17px; padding-top: 35px }
+ .row-b-voo-on {width: 250px; margin: 50px 0 0 0; text-align: left}
+ .row-b-vooon {width:225px; margin: 60px 0px 20px 20px; text-align: left}
+ .row-b-vooon input, .row-b-voo-on input {height:16px; font-size: 11px; border: none; padding: 3px 0 0 2px; color: #2e3353; background: #dbdbd4}
+ .row-b-vooon select, .row-b-voo-on select {height:19px; font-size: 11px; width: 80px; border: none; padding: 3px 0 2px 3px; color: #2e3353; background: #dbdbd4; float:left}
+ .row-b-jornal {*padding-bottom: 18px}
+ .row-b-voo input,.row-b-jornal input, .row-b-dicas input {margin: 2px; height:16px; font-size: 11px; width: 100px; border: none; padding: 3px 0 0 2px; color: #2e3353; background: #dbdbd4; float:left}
+ .row-b-dicas div.opinioes {margin-bottom: 20px}
+ .row-b-dicas {padding-top: 65px}
+ .row-b-dicas select {margin: 2px; height:17px; font-size: 11px; width: 153px; border: none; padding: 1px 0 0 2px; color: #2e3353; background: #dbdbd4; float:left}
+ .row-b-dicas textarea {margin: 2px; height:80px; font-size: 11px; width: 149px; border: none; padding: 2px; color: #2e3353; background: #dbdbd4}
+ .row-b-dicas hr {border: 1px #c5c6c4 solid; margin: 20px 0}
+ .roteiro {float:left; border:none}
+ .rss {float:left; border:none} 
+ 
+ div.formularios {font-size:12px; margin: 20px 0}
+ div.formularios input {cursor:pointer;margin-right: 5px; font-size: 11px }
+ div.formularios input.input-text {float:left; border: 1px #d4d5d5 solid; height:18px; padding: 4px 0 0 5px; color:#555}
+ div.formularios textarea {float:left; border: 1px #d4d5d5 solid; padding: 2px 0 0 2px; color:#555; font-family:Arial}
+ div.formularios p.espaco-formulario {height: 40px; clear:both}
+ .nome-campo {color:#2E3353; float:left; padding: 2px 5px 0 0; display:block; width: 80px; text-align: left; font-size:12px; font-family:Arial}
+ .nome-campo2 {color:#a63305; float:left; padding: 2px 5px 10px 0; display:block; width: 100%; font-size:12px; font-family:Arial}
+
+ .rodape {width: 100%; margin: 50px auto 20px auto; background: url(/arquivos/imgs/bg-rodape.gif) top repeat-x}
+ .rodape div.cont-rodape {width: 974px; margin:auto}
+ .rodape div.cont-rodape img{border: none; float:left}
+ .rodape div.text-rodape {float:right; font-size: 10px; text-align: right; margin: 8px 10px 20px}
+ 
+ table.foto_noticia td img {margin: 10px 15px}
+ span.comochegar {margin-top:91px; padding:16px 8px 14px 0; background: #d7d8d0; font-family:Arial,Helvetica,sans-serif; float:left; font-size:12px; color: #2f3258; font-variant: normal; text-transform: none; position: relative; width: 527px; text-align:right}
+ .form-nl {float: left}
+ .moreinfo {width:100%; float:left; padding-top: 10px; margin-bottom: 50px}
+ 
+ .envieamigos {width:510px; height: 310px; background: #fff; padding: 10px 20px 60px 20px; font-size: 12px; *padding: 10px 0 0 15px; *height:350px; *width:520px}
+ .envieamigos .envie_box {width: 255px; float:left; margin: 10px 0 0 0}
+ .envieamigos hr {float:left; margin-top:10px; border: 2px solid #52546B; width:492px; *margin-bottom:-25px}
+ 
+ .dinamico-text {color:#FFF; font-family: Times New Roman; font-size:35px; height: 100px; margin: 120px 0 0 150px; position: absolute; text-align: right; width: 800px}
+ 
+ /* Voo Online */
+ div.row-b-vooon .busca_form {float:left; padding-top: 10px}
+ table.table_voo input {font-size: 11px}
+ .table_voo .botao-busca {background:url(/arquivos/imgs/botao_busca.gif); border:none; height: 23px; width:65px; cursor: pointer; margin-top: 5px; float:left}
+ .table_voo .botao-buscaav {background:url(/arquivos/imgs/botao_busca_a.gif); border:none; height: 23px; width:120px; cursor: pointer; margin-top: 5px; float:left}
+ div#listHolder {position: absolute}
+ div#listHolder select {width: 178px; font-size:11px; color:#2E3353; background: #DBDBD4; border: 1px #AEB0AD solid}
+ div.row-b-vooon .lista_aeroportos, div.row-b-voo-on .lista_aeroportos {width: 190px !important; height:133px !important}
+ div.row-b-vooon .box_aeroportos, div.row-b-voo-on .box_aeroportos {position: absolute; padding: 10px; border: 1px #AEB0AD solid; background: #f8f8f2}
+ 
+ #corpotxt {text-align:justify;font-size:12px; padding-right:65px}
+ .imgimg {float:right; margin: 20px; border-color: rgb(215, 216, 208)}
+ 
+.top_contato {float: left; width: 165px; margin-left: 240px}
+.top_arealogin {position: relative; float: left; width: 230px}
+.top_login {float: left; position: absolute; margin-top:27px}
+.top_login a img {margin-top:5px; float:right}
+.input_login {border:1px solid #7E9DB9;color:#2E3353;height:18px; margin-top:5px; margin-right:5px; padding:3px 0 0 2px;width:92px}
+img.botao-bgcontato {width:auto}
+#mymovie {height:241px; width:960px; float:left}
+
+.lista-dicas {float:left; height:95px; width:265px; margin:20px 85px 30px 0; _margin:20px 71px 30px 0}
+
+/* Paginacao */
+.tabbed_pagination  {font-weight:bold; margin-top:60px; clear:both;text-align:center}
+.tabbed_pagination a {margin:0 1px;padding:4px 10px;background-color:#D7D8D0;color:#64667C}
+.tabbed_pagination a.current {background-color:#A63306;color:#FFF}
+.tabbed_totalpages {font-weight:bold; width:60%;color:#64667C;margin:10px auto 0;padding:4px;text-align:center;}
+.tabbed_totalpages span {padding-right:2px;}
+
+.tabbed_pagination a.p_left_all {overflow:hidden;padding-right:9px;background:url(/arquivos/imgs/paginatoresquerda.jpg) -52px 0;width:4px;height:20px;}
+.tabbed_pagination a.p_left {overflow:hidden;padding-right:9px;background:url(/arquivos/imgs/paginatoresquerda.jpg) -78px 0 no-repeat;width:4px;height:20px;}
+.tabbed_pagination a.p_right {overflow:hidden;padding-right:9px;background:url(/arquivos/imgs/paginatordireita.jpg) 0 0 no-repeat;width:4px;height:20px;}
+.tabbed_pagination a.p_right_all {overflow:hidden;padding-right:10px;background:url(/arquivos/imgs/paginatordireita.jpg) -26px 0 no-repeat;width:4px;height:20px;}
+
+.tabbed_pagination a.p_left_all.inactive {background:url(/arquivos/imgs/paginatoresquerda.jpg) !important;cursor:default;width:4px;height:20px;}
+.tabbed_pagination a.p_left.inactive {background:url(/arquivos/imgs/paginatoresquerda.jpg) -26px 0px !important;cursor:default;width:4px;height:20px;}
+.tabbed_pagination a.p_right.inactive {background:url(/arquivos/imgs/paginatordireita.jpg) -52px 0;cursor:default;width:4px;height:20px;}
+.tabbed_pagination a.p_right_all.inactive {background:url(/arquivos/imgs/paginatordireita.jpg) -78px 0;cursor:default;width:4px;height:20px;}
+
+.button {cursor:pointer;margin:10px 0 0 338px; border: 0pt none; width: 103px; height: 30px;background-image: url(/arquivos/imgs/botao-enviar.gif)}
+
+.loadingpag {display:block;margin:193px auto}

@@ -1,0 +1,75 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 19:32:43 Dec 27, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:21:30 Sep 23, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+a:link {  color: #0066CC; text-decoration: none}
+a:hover {  color: #003399; text-decoration: none}
+a:visited {  text-decoration: none}
+input {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #0066CC}
+textarea {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #0066CC}
+select {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #0066CC}
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.SubTitulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	color: #003366;
+	font-weight: bold;
+	text-transform: capitalize;
+
+
+}
+.Titulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #003366;
+
+}
+.TituloBranco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+div {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.Maiusculas {
+	text-transform: uppercase;
+}
+.Destaque {
+	font-weight: bold;
+	font-size: 10px;
+	color: #336699;
+
+
+}
+li {
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.DestaqueBranco {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.Vermelho {
+	color: #FF0000;
+}

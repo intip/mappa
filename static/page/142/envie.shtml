@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<script type="text/javascript" src="/static/js/analytics.js"></script>
+<script type="text/javascript">archive_analytics.values.server_name="wwwb-app18.us.archive.org";archive_analytics.values.server_ms=180;</script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+
+  <base href="/arquivos/" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="shortcut icon" href="imgs/favicon.ico">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+<title>Envie pacotes - Mappa Turismo - Ag�ncia de Viagens</title>
+<meta content="turismo, viagem e turismo, paris, europa, �sia, america do sul, america do central, caribe, europa, africa, oriente m�dio, oceania, pacifico, f�rias, feriados, fam�lia, lua de mel, cruzeiros, cultura, gastronomia, natureza, aventura, relax, spa, agencia de viagem, pacotes de viagem" name="keywords"/>
+<meta content="Mappa Turismo, a melhor op��o em viagens de lazer e neg�cios." name="description"/>
+<script type="text/javascript" src="js/jquery.js"></script>
+
+</head>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17569361-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? '/web/20141114025519/https://ssl' : '/web/20141114025519/http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<body>
+
+
+
+
+
+<img src="imgs/bg-envie.jpg" alt="" />
+<div class="envieamigos">
+  <form action="#" method="get">
+
+    <div class="envie_box">
+      <strong class="nome-campo2">Meu nome:</strong><br />
+      <input type="text" size="35" id="meu_nome" />
+    </div>
+
+<div class="envie_box">
+<strong class="nome-campo2">Meu e-mail:</strong><br />
+<input type="text" size="35" id="meu_email" />
+</div>
+
+<hr />
+
+<div class="envie_box">
+<strong class="nome-campo2">Amigo 1:</strong><br />
+<input type="text" size="35" id="nome1" />
+</div>
+<div class="envie_box">
+<strong class="nome-campo2">E-mail:</strong><br />
+<input type="text" size="35" id="email1" />
+</div>
+
+<div class="envie_box">
+<strong class="nome-campo2">Amigo 2:</strong><br />
+<input type="text" size="35" id="nome2" />
+</div>
+<div class="envie_box">
+<strong class="nome-campo2">E-mail:</strong><br />
+<input type="text" size="35" id="email2" />
+</div>
+
+<div class="envie_box">
+<strong class="nome-campo2">Amigo 3:</strong><br />
+<input type="text" size="35" id="nome3" />
+</div>
+<div class="envie_box">
+<strong class="nome-campo2">E-mail:</strong><br />
+<input type="text" size="35" id="email3" />
+</div>
+
+<div class="envie_box">
+<strong class="nome-campo2">Amigo 4:</strong><br />
+<input type="text" size="35" id="nome4" />
+</div>
+<div class="envie_box">
+<strong class="nome-campo2">E-mail:</strong><br />
+<input type="text" size="35" id="email4" />
+</div>
+
+<div style="text-align: right; margin-right: 20px;">
+<input id="enviar" type="button" value="" class="button" onclick="dfenviar()" />
+</div>
+
+</form>
+</div>
+<script type="text/javascript">
+function dfenviar()
+{
+  if ( $('#meu_nome').val() == '' || $('#meu_email').val() == '' || 
+  (
+   ($('#nome1').val() == '' || $('#email1').val() == '') && 
+   ($('#nome2').val() == '' || $('#email2').val() == '') &&
+   ($('#nome3').val() == '' || $('#email3').val() == '') && 
+   ($('#nome4').val() == '' || $('#email4').val() == '') ) )
+  {
+    alert('Digite os dados');
+  } else {
+    $('#wtcomc').show();
+    $('#enviar').hide();
+
+    $.getJSON('/modulos/mappapacote60/sendfriend', {
+                                 meu_nome:$('#meu_nome').val(),
+                                 e:$('#meu_email').val(),
+                                 nome1:$('#nome1').val(),
+                                 e1:$('#email1').val(),
+                                 nome2:$('#nome2').val(),
+                                 e2:$('#email2').val(),
+                                 nome3:$('#nome3').val(),
+                                 e3:$('#email3').val(),
+                                 nome4:$('#nome4').val(),
+                                 e4:$('#email4').val(),
+                                 url:window.opener.location.href},
+    function(data){
+      if (data['ok'])
+      {
+          alert('Enviado com sucesso!');
+          window.close();
+      } else {
+          alert('Ocorreu um erro, tente mais tarde');
+      }
+      $('#wtcomc').hide();
+      $('#enviar').show();
+    });
+  }
+}
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 2:55:19 Nov 14, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:50:24 Sep 23, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
